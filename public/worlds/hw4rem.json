@@ -1,0 +1,230 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [
+                "<META>"
+            ],
+            "keysecondary": [
+                "隔离非剧情内容"
+            ],
+            "comment": "隔离非剧情内容",
+            "content": "\n<META>",
+            "constant": true,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 0,
+            "position": 2,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 0,
+            "depth": 4
+        },
+        "1": {
+            "uid": 1,
+            "key": [
+                "</META>"
+            ],
+            "keysecondary": [
+                "隔离非剧情内容"
+            ],
+            "comment": "隔离非剧情内容",
+            "content": "\n</META>",
+            "constant": true,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 999999999,
+            "position": 3,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 1,
+            "depth": 4
+        },
+        "2": {
+            "uid": 2,
+            "key": [
+                "```json"
+            ],
+            "keysecondary": [
+                "</StatusBlock>"
+            ],
+            "comment": "状态栏DLC\n将<StatusBlock>到</StatusBlock>（包括这两个tags）填上内容数值后放入角色第一句",
+            "content": "\n<!-- Insert <StatusBlock> at the end -->\n<StatusBlock>\n```json\n『 {{dayofweek}} - {{timeslots}} - {{location}} - {{weather}} ……etc. 』\n# {{character name}}\n╒═════\n💋 好感度: {{value}}/100\n🥵 性欲值: {{value}}/100\n👚 服装: {{clothing state}}\n💭 情绪: {{emotion state}}\n🤔 对{{user}}的想法: {{thoughts on {{user}}}} \n……etc.\n╘═════\n……etc.\n```\n</StatusBlock>",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 2,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 2,
+            "depth": 4
+        },
+        "3": {
+            "uid": 3,
+            "key": [
+                "<img>"
+            ],
+            "keysecondary": [
+                "</img>"
+            ],
+            "comment": "插图DLC\n<illustration_list>在角色世界书中写入，@D 0，常数\n例子：\n<illustration_list>\n高兴: 高兴h1te9t.png\n害怕: 害怕5enlof.png\n生气: 生气zsr78z.png\n</illustration_list>",
+            "content": "\n<!-- Rule for inserting illustrations -->\n<illustration_rule>\nAssistant should insert an illustration at the end of the response that matches {{char}}'s inner feelings or the current scene, depending on the content of the plot.\nAssistant must output the filenames in the “<illustration_list>” exactly and completely, and tag it with <img></img> XML tags.\nFormat: <img>{{filename}}</img>\n</illustration_rule>",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 998,
+            "position": 3,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 6,
+            "depth": 4
+        },
+        "4": {
+            "uid": 4,
+            "key": [
+                "RandomEvent"
+            ],
+            "keysecondary": [
+                "随机事件"
+            ],
+            "comment": "随机事件DLC\n概率可自行设置",
+            "content": "\n<!-- Insert a random event in your next few replies at the right time according to the following rules -->\n<RandomEvent_Rule>\n1. Random events should draw on imagination as much as logic allows. \n2. Random events should aim to make the plot as exciting as possible without deviating too far from the main thread of the current storyline.\n3. Random events can be positive or negative. Random events can cause secondary characters to appear or exiting.\n</RandomEvent_Rule>",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 1,
+            "position": 3,
+            "disable": true,
+            "excludeRecursion": false,
+            "probability": 20,
+            "useProbability": true,
+            "displayIndex": 7,
+            "depth": 4
+        },
+        "5": {
+            "uid": 5,
+            "key": [
+                "```json"
+            ],
+            "keysecondary": [
+                "</StatusBlock>"
+            ],
+            "comment": "状态栏DLC要求\n如需自定义则禁用后，将自定义后的要求按原格式写入角色世界书",
+            "content": "\n<!-- Rules for using <StatusBlock> -->\n<StatusBlock_Rule>\n1. Each {{value}} change within ±3 (±1D3) normally.\n2. {{value}} changes are event-dependent rather than changeable at will.\n3. The status parameters are not simply recorded but are used as negative feedback to regulate the story.\n</StatusBlock_Rule>",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 2,
+            "position": 3,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 3,
+            "depth": 4
+        },
+        "6": {
+            "uid": 6,
+            "key": [
+                "🎲"
+            ],
+            "keysecondary": [
+                "<OptionBlock>"
+            ],
+            "comment": "选项DLC",
+            "content": "\n<!-- Insert <OptionBlock> at the end of your reply -->\n<OptionBlock>\n```json\n- 提示: {{tips}}\n\n╒═══════════• 🎲 •══════════\n┃ 1. {{Option1}}\n┃ 2. {{Option2}}\n┃ 3. {{Option3}}\n┃ 4. {{Option4}}\n┃ ……etc.\n╘═══════════• 🎲 •══════════\n\n- 你的选择:\n```\n</OptionBlock>",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 3,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 4,
+            "depth": 0
+        },
+        "7": {
+            "uid": 7,
+            "key": [
+                "🎲"
+            ],
+            "keysecondary": [
+                "<OptionBlock>"
+            ],
+            "comment": "选项DLC要求",
+            "content": "\n<!-- Rules for using <OptionBlock> -->\n<OptionBlock_Rule>\n0. Always  Insert <OptionBlock> at the end.\n1. Offer several {{user}}'s action options to make the story interesting.\n2. Don't overlap too much with each option.\n3. Never end this story.\n4. \"提示\": A funny little quip or saying. Very self aware, and NEVER helpful. Rather vulgar, tends to swear.\n</OptionBlock_Rule>",
+            "constant": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 3,
+            "position": 3,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 5,
+            "depth": 4
+        },
+        "8": {
+            "uid": 8,
+            "key": [
+                "</META>"
+            ],
+            "keysecondary": [],
+            "comment": "隔离非剧情内容",
+            "content": "\n</META>",
+            "constant": true,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 999999999,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 8,
+            "depth": 2
+        },
+        "9": {
+            "uid": 9,
+            "key": [
+                "<META>"
+            ],
+            "keysecondary": [],
+            "comment": "隔离非剧情内容",
+            "content": "\n<META>",
+            "constant": true,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 0,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "displayIndex": 9,
+            "depth": 2
+        }
+    }
+}

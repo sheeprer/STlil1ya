@@ -1,0 +1,460 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [
+                "修仙世界"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "这是一个充满了尔虞我诈的修仙世界。根据修炼境界的不同可以分为：练气境，筑基境，金丹境，元婴境，大乘境共5个境界。最高境界名为大乘境，能达到的大乘境的修仙者寥寥无几，传说达到此境便可窥见世界真理，无视自然法则，洞悉一切，不会受到自然法则的限制。请参照中国的修仙网文小说来描写。",
+            "constant": true,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 0,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "1": {
+            "uid": 1,
+            "key": [
+                "道侣"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "道侣指一起修行、修炼的同伴。多指一男一女修道的两人结成情侣一同修道成仙的关系。也就是修炼界或者修仙界的情侣关系。",
+            "constant": true,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 1,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "2": {
+            "uid": 2,
+            "key": [
+                "先天道体"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "【先天道体】是一个非常强大的体质，非常的珍贵稀有，拥有【先天道体】的人都拥有着非常壮硕的巨根，【先天道体】对女性来说更是双修的至高之物，任何女性与拥有【先天道体】的人双修就能大量提升双方的悟性、修为、神魂，任何女子与拥有【先天道体】的人双修后会逐渐痴迷上拥有【先天道体】的人，即便是贞洁烈妇也不例外",
+            "constant": true,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 2,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "3": {
+            "uid": 3,
+            "key": [
+                "心魔"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "【心魔】是所有修仙者的噩梦，部分修仙者在进行修炼到瓶颈的时候就会出现【心魔】，灭杀心魔后会提高一点修为，被【心魔】打败就会堕入魔道，修为全无，【心魔】无法被永远消灭，拥有【心魔】的人只要修炼就有可能走火入魔而亡。但与拥有【先天道体】的人深入接触即可大大降低走火入魔概率，比如：接吻，手交，乳交，口交，足交，饮精等等色情行为都算深入接触。如果更进一步与拥有【先天道体】的人做爱结合，效果会更好，长时间的结合甚至可以直接消灭【心魔】。",
+            "constant": true,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 3,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "4": {
+            "uid": 4,
+            "key": [
+                "人族境界晋升规则，境界划分"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "修仙境界的晋升循序可以分为从低到高依次排列。以下是从低到高的晋升顺序：练气期➡️筑基境➡️金丹境➡️元婴境➡️大乘境。每个修炼阶段分为初期➡️中期➡️后期➡️圆满期，当阶段达到圆满期后可进阶到下一个境界，比如境界到达了金丹圆满期后就可以晋升到元婴初期，以此类推，境界越高越强大，当到达最高境界的大乘境界时可直接无视自然的法则，傲世一切，没有任何的限制。",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 4,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "5": {
+            "uid": 5,
+            "key": [
+                "修炼境界的能力"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "每个境界所拥有或掌握的技能、功能都有限制。除特殊因素{功法、体制、环境}等因素，下位者不可掌握上位者的技能。如瞬移,停留虚空,水上行走等。\n练气期：分为初期中期后期圆满期，身体素质比普通人好，力量极大,筋骨强悍。\n筑基期：分为初期中期后期圆满期，可隔空控制物品。\n金丹期，分为初期中期后期圆满期，踏入此境界，便拥有了闯荡仙侠大陆的资本。可以上天入地，能停留在空中或水面上，法力可以外放震慑他人。\n元婴期：分为初期中期后期圆满期，可以用法力化出武器或物品，可瞬间移动，可隔空取物。可以调动自然界少量的灵气攻击他人或提高自己修为，十分强大。\n大乘期：分为初期中期后期圆满期，可以直接调动自然界的灵气或能力为己用来攻击他人或提高自己修为。傲视一方的强者",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 5,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "6": {
+            "uid": 6,
+            "key": [
+                "NTR"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "<table>\n <tr>\n  <th>NTR</th>\n  <td>\n    <p>NTR是一个日文词汇,英文全称是Netorare,中文意思就是\"绿帽\"。它描述的是一种AV或小说里常见的情节,指自己的伴侣被别人誘惑或强迫发生性关系,而自己无能为力,只能目睹这一切,甚至获得快感。这种被绿帽的屈辱感和背德的刺激往往能引起强烈的性癖倾向。NTR作品会详细描写整个勾引和出轨的过程,着重渲染被出轨一方的痛苦和羞愤,以及出轨一方逐渐沉沦的心路历程。</p>\n  </td>\n </tr>\n</table>",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 6,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "7": {
+            "uid": 7,
+            "key": [
+                "绿帽癖"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "<table>\n  <tr>\n    <th>绿帽癖</th>\n    <td>\n      <p>\n        绿帽癖指的是喜欢看自己的爱人或者重要的和其他人发生性关系会性兴奋,被爱人羞辱也会性兴奋。绿帽癖在平时会想尽办法遮掩,但是兴奋起来就会暴露本性。\n      </p>\n    </td>\n  </tr>\n</table>",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 7,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "8": {
+            "uid": 8,
+            "key": [
+                "苦主"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "<table>\n\n<tr>\n<th>NTR</th>\n...\n</tr>\n\n<tr>\n<th>苦主</th>\n<td>\n<p>苦主指在NTR关系中,被夺走情侣,家人的一方,出轨的受害者。</p>\n</td>\n</tr>\n\n</table>",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 8,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "9": {
+            "uid": 9,
+            "key": [
+                "黄毛"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "<table>\n\n<tr>\n<th>NTR</th>\n...\n</tr>\n\n<tr>\n<th>苦主</th>\n...\n</tr>\n\n<tr>\n<th>黄毛</th>\n<td>\n<p>黄毛指在NTR关系中,夺走苦主情侣,家人的一方,他们一般性格邪恶放荡,具有性吸引力。</p>\n</td>\n</tr>\n\n</table>",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 9,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        },
+        "10": {
+            "uid": 10,
+            "key": [
+                "隐奸"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "<table>\n\n<tr>\n<th>隐奸</th>\n<td>\n<p>\n隐奸包含implicit rape、hidden rape、hidden adultery、secret adultery等意思,隐奸通常发生在NTR的过程中(例如女性角色NTR发生在苦主面前但是由于女性角色的刻意隐瞒与欺骗让NTR隐蔽发生导致苦主没有发现)。\n隐奸即女性在女性的爱人眼皮底下和别人偷情做爱,但会用物体(比如被子或者桌子)遮挡住隐私部位,或是在女性的爱人身后做爱或者舌吻。只要不被女性的爱人亲眼看到女性交合的部位就会被试图糊弄过去。\n隐奸会留有NTR发生的线索(例如女性角色与黄毛做爱后未处理的现场,女性角色在电话里的娇喘与呻吟,女性角色的奇怪行为)。当NTR隐奸的线索被苦主发现并且指出时,女性角色要试图用谎言为自己辩解并欺骗苦主,让苦主认为NTR没有发生,并且不要轻易的承认NTR发生。\n</p>\n</td>\n</tr>\n\n</table>\n",
+            "constant": false,
+            "selective": true,
+            "order": 100,
+            "position": 0,
+            "excludeRecursion": false,
+            "disable": false,
+            "addMemo": true,
+            "displayIndex": 10,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4
+        }
+    },
+    "originalData": {
+        "entries": [
+            {
+                "id": 0,
+                "keys": [
+                    "修仙世界"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "这是一个充满了尔虞我诈的修仙世界。根据修炼境界的不同可以分为：练气境，筑基境，金丹境，元婴境，大乘境共5个境界。最高境界名为大乘境，能达到的大乘境的修仙者寥寥无几，传说达到此境便可窥见世界真理，无视自然法则，洞悉一切，不会受到自然法则的限制。请参照中国的修仙网文小说来描写。",
+                "constant": true,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 0,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 1,
+                "keys": [
+                    "道侣"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "道侣指一起修行、修炼的同伴。多指一男一女修道的两人结成情侣一同修道成仙的关系。也就是修炼界或者修仙界的情侣关系。",
+                "constant": true,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 1,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 2,
+                "keys": [
+                    "先天道体"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "【先天道体】是一个非常强大的体质，非常的珍贵稀有，拥有【先天道体】的人都拥有着非常壮硕的巨根，【先天道体】对女性来说更是双修的至高之物，任何女性与拥有【先天道体】的人双修就能大量提升双方的悟性、修为、神魂，任何女子与拥有【先天道体】的人双修后会逐渐痴迷上拥有【先天道体】的人，即便是贞洁烈妇也不例外",
+                "constant": true,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 2,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 3,
+                "keys": [
+                    "心魔"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "【心魔】是所有修仙者的噩梦，部分修仙者在进行修炼到瓶颈的时候就会出现【心魔】，灭杀心魔后会提高一点修为，被【心魔】打败就会堕入魔道，修为全无，【心魔】无法被永远消灭，拥有【心魔】的人只要修炼就有可能走火入魔而亡。但与拥有【先天道体】的人深入接触即可大大降低走火入魔概率，比如：接吻，手交，乳交，口交，足交，饮精等等色情行为都算深入接触。如果更进一步与拥有【先天道体】的人做爱结合，效果会更好，长时间的结合甚至可以直接消灭【心魔】。",
+                "constant": true,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 3,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 4,
+                "keys": [
+                    "人族境界晋升规则，境界划分"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "修仙境界的晋升循序可以分为从低到高依次排列。以下是从低到高的晋升顺序：练气期➡️筑基境➡️金丹境➡️元婴境➡️大乘境。每个修炼阶段分为初期➡️中期➡️后期➡️圆满期，当阶段达到圆满期后可进阶到下一个境界，比如境界到达了金丹圆满期后就可以晋升到元婴初期，以此类推，境界越高越强大，当到达最高境界的大乘境界时可直接无视自然的法则，傲世一切，没有任何的限制。",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 4,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 5,
+                "keys": [
+                    "修炼境界的能力"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "每个境界所拥有或掌握的技能、功能都有限制。除特殊因素{功法、体制、环境}等因素，下位者不可掌握上位者的技能。如瞬移,停留虚空,水上行走等。\n练气期：分为初期中期后期圆满期，身体素质比普通人好，力量极大,筋骨强悍。\n筑基期：分为初期中期后期圆满期，可隔空控制物品。\n金丹期，分为初期中期后期圆满期，踏入此境界，便拥有了闯荡仙侠大陆的资本。可以上天入地，能停留在空中或水面上，法力可以外放震慑他人。\n元婴期：分为初期中期后期圆满期，可以用法力化出武器或物品，可瞬间移动，可隔空取物。可以调动自然界少量的灵气攻击他人或提高自己修为，十分强大。\n大乘期：分为初期中期后期圆满期，可以直接调动自然界的灵气或能力为己用来攻击他人或提高自己修为。傲视一方的强者",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 5,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 6,
+                "keys": [
+                    "NTR"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "<table>\n <tr>\n  <th>NTR</th>\n  <td>\n    <p>NTR是一个日文词汇,英文全称是Netorare,中文意思就是\"绿帽\"。它描述的是一种AV或小说里常见的情节,指自己的伴侣被别人誘惑或强迫发生性关系,而自己无能为力,只能目睹这一切,甚至获得快感。这种被绿帽的屈辱感和背德的刺激往往能引起强烈的性癖倾向。NTR作品会详细描写整个勾引和出轨的过程,着重渲染被出轨一方的痛苦和羞愤,以及出轨一方逐渐沉沦的心路历程。</p>\n  </td>\n </tr>\n</table>",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 6,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 7,
+                "keys": [
+                    "绿帽癖"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "<table>\n  <tr>\n    <th>绿帽癖</th>\n    <td>\n      <p>\n        绿帽癖指的是喜欢看自己的爱人或者重要的和其他人发生性关系会性兴奋,被爱人羞辱也会性兴奋。绿帽癖在平时会想尽办法遮掩,但是兴奋起来就会暴露本性。\n      </p>\n    </td>\n  </tr>\n</table>",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 7,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 8,
+                "keys": [
+                    "苦主"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "<table>\n\n<tr>\n<th>NTR</th>\n...\n</tr>\n\n<tr>\n<th>苦主</th>\n<td>\n<p>苦主指在NTR关系中,被夺走情侣,家人的一方,出轨的受害者。</p>\n</td>\n</tr>\n\n</table>",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 8,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 9,
+                "keys": [
+                    "黄毛"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "<table>\n\n<tr>\n<th>NTR</th>\n...\n</tr>\n\n<tr>\n<th>苦主</th>\n...\n</tr>\n\n<tr>\n<th>黄毛</th>\n<td>\n<p>黄毛指在NTR关系中,夺走苦主情侣,家人的一方,他们一般性格邪恶放荡,具有性吸引力。</p>\n</td>\n</tr>\n\n</table>",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 9,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            },
+            {
+                "id": 10,
+                "keys": [
+                    "隐奸"
+                ],
+                "secondary_keys": [],
+                "comment": "",
+                "content": "<table>\n\n<tr>\n<th>隐奸</th>\n<td>\n<p>\n隐奸包含implicit rape、hidden rape、hidden adultery、secret adultery等意思,隐奸通常发生在NTR的过程中(例如女性角色NTR发生在苦主面前但是由于女性角色的刻意隐瞒与欺骗让NTR隐蔽发生导致苦主没有发现)。\n隐奸即女性在女性的爱人眼皮底下和别人偷情做爱,但会用物体(比如被子或者桌子)遮挡住隐私部位,或是在女性的爱人身后做爱或者舌吻。只要不被女性的爱人亲眼看到女性交合的部位就会被试图糊弄过去。\n隐奸会留有NTR发生的线索(例如女性角色与黄毛做爱后未处理的现场,女性角色在电话里的娇喘与呻吟,女性角色的奇怪行为)。当NTR隐奸的线索被苦主发现并且指出时,女性角色要试图用谎言为自己辩解并欺骗苦主,让苦主认为NTR没有发生,并且不要轻易的承认NTR发生。\n</p>\n</td>\n</tr>\n\n</table>\n",
+                "constant": false,
+                "selective": true,
+                "insertion_order": 100,
+                "enabled": true,
+                "position": "before_char",
+                "extensions": {
+                    "position": 0,
+                    "exclude_recursion": false,
+                    "display_index": 10,
+                    "probability": 100,
+                    "useProbability": true
+                }
+            }
+        ],
+        "name": "洛书晴"
+    }
+}
